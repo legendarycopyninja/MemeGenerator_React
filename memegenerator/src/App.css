@@ -1,0 +1,68 @@
+.headerContainer {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 15px;
+}
+
+.headerContainer >img {
+    height: 25px;
+    margin-right: 8px;
+}
+
+/* react logo Animation */
+
+@media (prefers-reduced-motion: no-preference) {
+    .nav-logo {
+      animation: App-logo-spin infinite 8s linear;
+    }
+  }
+  
+@keyframes App-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+
+.headerContainer > h2 {
+font-size: 1.2rem;
+margin-right: auto;
+font-weight: 600;
+}
+
+.headerContainer > h3 {
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+
+/* Meme Form CSS */
+
+.formPage {
+    display: grid;
+    grid-template: 30px 30px/1fr 1fr;
+    padding: 20px 10px;
+    gap: 10px;
+}
+
+.forminput {
+    border-radius: 8px;
+    border: 1px solid #D5D4D8;
+    text-indent: 5px;
+    font-family: 'Karla', sans-serif;
+}
+
+.formbutton {
+    grid-column: 1/-1;
+    border-radius: 10px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    font-family: 'Karla', sans-serif;
+    border: none;
+    cursor: pointer;
+}
